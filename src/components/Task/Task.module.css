@@ -1,0 +1,47 @@
+.task {
+	width: 100%;
+	font-size: 1.1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 2rem;
+	padding: 1.1rem 2rem;
+	border-radius: 50px;
+	background-color: var(--bg-color-light);
+	border: 2px solid var(--bg-color-light);
+}
+
+.taskCompleted {
+	border: 2px solid var(--green);
+}
+
+.taskCompleted p {
+	color: var(--green);
+}
+
+.controls {
+	display: flex;
+	gap: 2rem;
+}
+
+.controls button {
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.1rem;
+	color: var(--text-color);
+}
+
+.icon {
+	transform: scale(1.4);
+	transition: all 0.2s ease-in-out;
+}
+
+.completeIcon:hover {
+	color: var(--green);
+}
+
+.deleteIcon:hover {
+	color: var(--red);
+}

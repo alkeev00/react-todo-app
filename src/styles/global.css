@@ -1,0 +1,62 @@
+@import './variables';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: var(--main-font);
+	font-weight: var(--text-weight);
+	color: var(--text-color);
+	background-color: var(--bg-color);
+	min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--text-color);
+	transition: all 0.5s ease-in-out;
+}
+
+h1 {
+	font-size: 3rem;
+	font-family: var(--main-font);
+	font-weight: 800;
+}
+
+button {
+	cursor: pointer;
+	font-family: var(--main-font);
+	border: none;
+	outline: none;
+	font-weight: 600;
+}
+
+input {
+	font-family: var(--main-font);
+	border: none;
+	outline: none;
+	font-weight: 600;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.container {
+	padding: 0 calc(50% - 590px);
+	margin: 0 auto;
+}
