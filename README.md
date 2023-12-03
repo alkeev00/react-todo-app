@@ -12,4 +12,4 @@ The main functionality of the app includes:
 
 4. Task Deletion: Users can effortlessly remove tasks from the list if they are no longer relevant or completed.
 
-App preview: [Todo App](https://alkeev00-todoapp.netlify.app/)
+App preview: [Todo App](https://alkeev-todoapp.netlify.app/)
